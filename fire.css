@@ -2,7 +2,6 @@
             background-color: rgb(0, 0, 0);
             margin: 5rem;
             color: black;
-            touch-action: none
         }
 
         #lower-flame {
@@ -16,7 +15,6 @@
             border-bottom: solid rgb(255, 220, 62) 15px;
             border-right: solid rgb(255, 220, 62) 15px;
             animation: glare 1.5s linear infinite;
-            touch-action: none
         }
 
         #middle-flame {
@@ -28,7 +26,6 @@
             border-bottom-right-radius: 70%;
             padding: .9em;
             animation: glare1 3s linear infinite;
-            touch-action: none
         }
 
         #upper-flame {
@@ -42,13 +39,11 @@
             transform: rotate(45deg);
             box-shadow: rgb(255, 242, 0) 0px 0px 75px;
             animation: glare2 2s linear infinite;
-            touch-action: none
         }
 
         #scale {
             transform: scale(35%, 50%);
             position: fixed;
-            touch-action: none
         }
 
         #light {
@@ -61,7 +56,6 @@
             scale: 1.3;
             background: radial-gradient(circle at 40% 60%,
                         #ffec85 0%, #ffae34 30%, #ff5d00 60%, #0b0500 100%);
-            touch-action: none
         }
         #stick{
             width: 5px;
@@ -73,12 +67,10 @@
             transform: translate(35px,100px);
             rotate: -40deg;
             z-index: 1;
-            touch-action: none
         }
         #cursor{
             position: fixed;
             cursor: grabbing;
-            touch-action: none
         }
         #text{
             font-family: cursive;
