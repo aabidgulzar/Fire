@@ -2,7 +2,7 @@
         let scale = document.getElementById("scale");
         let stick = document.getElementById("stick");
         let cursor = document.getElementById("cursor");
-        addEventListener('mousemove', handleEvent);
+        addEventListener('pointermove', handleEvent);
         function handleEvent(event) {
             const x = event.clientX;
             const y = event.clientY;
