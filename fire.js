@@ -4,6 +4,7 @@
         let cursor = document.getElementById("cursor");
         addEventListener('pointermove', handleEvent);
         function handleEvent(event) {
+            event.preventDefault();
             const x = event.clientX;
             const y = event.clientY;
             light.style.left = x-110 + "px";
