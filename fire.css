@@ -39,6 +39,7 @@
             transform: rotate(45deg);
             box-shadow: rgb(255, 242, 0) 0px 0px 75px;
             animation: glare2 2s linear infinite;
+            filter: blur(8px);
         }
 
         #scale {
@@ -62,7 +63,7 @@
             height: 100px;
             background-color: rgb(250, 255, 119);
             position: fixed;
-            border-top: solid 10px black;
+            border-top: solid 10px rgba(0, 0, 0, 0.413);
             border-top-left-radius: 70%;
             transform: translate(35px,100px);
             rotate: -40deg;

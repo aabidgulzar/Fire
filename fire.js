@@ -13,5 +13,5 @@
             scale.style.top = y-125 + "px";
             
             stick.style.left = x-110 + "px";
-            stick.style.top = y-125 + "px";
+            stick.style.top = y-113 + "px";
         }
