@@ -1,3 +1,7 @@
+        *{
+            cursor: none;
+        }
+        
         body {
             background-color: rgb(0, 0, 0);
             margin: 5rem;
@@ -5,7 +9,7 @@
         }
 
         #lower-flame {
-            background-color: rgb(255, 220, 62);
+            background-color: rgba(255, 220, 62, 0.756);
             width: 30px;
             height: 30px;
             border-top-right-radius: 70%;
@@ -18,7 +22,7 @@
         }
 
         #middle-flame {
-            background-color: rgb(255, 183, 0);
+            background-color: rgba(255, 183, 0, 0.724);
             width: 70px;
             height: 70px;
             border-top-right-radius: 70%;
@@ -29,7 +33,7 @@
         }
 
         #upper-flame {
-            background-color: rgb(255, 123, 0);
+            background-color: rgba(255, 123, 0, 0.66);
             width: 90px;
             height: 90px;
             border-top-right-radius: 70%;
@@ -63,7 +67,7 @@
             height: 100px;
             background-color: rgb(250, 255, 119);
             position: fixed;
-            border-top: solid 10px rgba(0, 0, 0, 0.413);
+            border-top: solid 10px rgba(0, 0, 0, 0.253);
             border-top-left-radius: 70%;
             transform: translate(35px,100px);
             rotate: -40deg;
@@ -71,7 +75,6 @@
         }
         #cursor{
             position: fixed;
-            cursor: grabbing;
         }
         #text{
             font-family: cursive;
